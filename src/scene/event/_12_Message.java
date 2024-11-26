@@ -77,8 +77,10 @@ public class _12_Message extends Event {
                 System.out.println("Going to _9_World_End...");
                 GAME.nextScene(END);
             }
-            System.out.println("Going to trance...");
-            GAME.nextScene(TRANCE);
+            else{
+                System.out.println("Going to trance...");
+                GAME.nextScene(TRANCE);
+            }
         }
         else {
             System.out.println("Going to menu...");
